@@ -1,0 +1,7 @@
+salvamento automadico do git 
+
+terminal comando(ctrl+") " git init"
+
+"git config --global user.name "Miguel Knupp""
+
+"git config --global user.email "miguel.barboza@aluno.senai.br""
