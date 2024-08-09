@@ -1,13 +1,48 @@
 body{
     padding: 0;
-    margin: 0%;
+    margin: 0;
 }
 
+
+#cabecinha{
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    justify-content: center
     
+}
+
+.vermelho{
+
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caixinha{
+    background-color: green;
+    height: 20%;
+    margin: 5px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 #pezin{
+    margin: 0;
+    padding: 0;
     background-color: rgb(68, 68, 68);
     height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center
     
 }
