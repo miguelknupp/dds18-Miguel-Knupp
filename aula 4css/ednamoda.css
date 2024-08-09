@@ -1,0 +1,30 @@
+div{
+    background-color: aqua;
+}
+
+.vermelho{
+    background-color: brown;
+}
+
+.Azulin{
+    background-color: rgb(38, 97, 156);
+    height: 50vh;
+    width: 90vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Barbiegirl{
+    background-color: rgb(230, 23, 122);
+    height: 25%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.arthurzinho{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
