@@ -1,0 +1,33 @@
+body{
+background-color: antiquewhite;
+
+
+}
+    
+#form1{
+    border: 2px;
+    border-style: solid;
+    padding: 1%;
+    margin: 2%;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+    
+#form2{
+    border: 2px;
+    border-style: solid;
+    padding: 1%;
+    margin: 2%;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    padding: 0.5%;
+}
+
+.butao{
+    
+}
