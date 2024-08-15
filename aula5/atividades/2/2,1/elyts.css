@@ -1,0 +1,16 @@
+body{
+    background-color: yellow;
+    display: flex;
+}
+
+#bolso img{
+    width: 24%;
+    height: auto;
+    position: fixed;
+
+}
+
+#bolso{
+    align-items: center;
+    justify-content: center;
+}
