@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: yellow;
     display: flex;
 }
@@ -10,7 +10,32 @@ body{
 
 }
 
-#bolso{
+#bolso {
     align-items: center;
     justify-content: center;
+}  
+    tentativa 999 >:((
+    */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o estilo do corpo da página */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: yellow;
+    margin: 0;
+}
+
+/* Define o estilo da imagem de fundo */
+.background-image {
+    position: relative;
+    width: 80%; /* Ajuste conforme necessário */
+    max-width: 1000px; /* Ajuste conforme necessário */
+    height: auto; /* Manter a proporção da imagem */
 }
