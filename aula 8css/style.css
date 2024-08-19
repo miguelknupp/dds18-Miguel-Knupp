@@ -1,0 +1,47 @@
+body{
+    background-color: orangered;
+    height: 600px;
+}
+
+#tudo{
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+}
+
+.quad{
+    height: 150px;
+    width: 150px;
+    display: left;
+}
+
+#quad1{
+background-color: red;
+}
+
+#quad2{
+background-color: yellow;
+}
+
+#quad3{
+background-color: green;
+}
+
+#container{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 1rem; */
+    flex-flow: column wrap;
+}
+
+#container2{
+    background-color: blue;
+    padding: 5px;
+    height: 600px;
+    display: grid;
+    /* grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto ; */
+    grid-template: auto/ auto auto auto auto;
+}
