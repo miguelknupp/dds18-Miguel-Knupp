@@ -31,3 +31,18 @@ function cliquei(){
     console.log("cliquei de novo")
 }
 
+function outrofoco(){
+    console.log("mudei o foco, não esta mais na caixa")
+}
+
+function trocatexto(textocaixinha){
+    document.getElementById("textoparatrocar").innerText = textocaixinha.value
+}
+
+function corVerde(elemento){
+    elemento.style.color = "green"
+}
+
+function corAzul(elemento){
+    elemento.style.color = "blue"
+}

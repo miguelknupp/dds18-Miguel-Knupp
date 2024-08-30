@@ -10,16 +10,24 @@
     <p>pagarafo</p>
     <p class="para">pagarafo 2</p>
     <p class="para"
-    id="v3">pagarafo 3</p>-->
+    id="v3">pagarafo 3</p>
 
     <h1 id="clique" onclick="console.log('cliquei no titulo')">Clique aqui</h1>
 
     <h1 id="click" onclick="cliquei()">Clique aqui</h1>
 
     <h1 id="clik" onclick="console.log(this)">Baixe memoria de graça</h1>
-
-    <input type="text">
-    <input type="text">
+-->
+    muda com o foco 
+    <input type="text" onchange="outrofoco()"> 
+    <br>
+    <br>
+    muda enquanto digita
+    <input type="text" oninput="trocatexto(this)">
+    <h1 id="textoparatrocar"> sss</h1>
+    <h1 id="textotrocacor" onmouseover="corVerde(this)" onmouseout="corAzul(this)">
+        mudei
+    </h1>
 </body>
 <script src="script.js"></script>
 </html>
