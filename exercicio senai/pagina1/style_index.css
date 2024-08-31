@@ -12,7 +12,10 @@ body{
     text-align: center;
     flex-grow: 1;
 }
-
+.corpo a{
+    color: initial;
+    text-decoration: none;
+}
 #organizador{
     display: flex;
     flex-direction: row;
